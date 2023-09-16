@@ -1,9 +1,8 @@
 # SET09102 portfolio
 
-Hello everyone! I am Marco Vavassori, I am a third year student at Edinburgh Napier University.
-This Github repository contains 10 portfolio entries that I have written for my Software Engineering Coursework. Each one of them is a detailed and
-reflective description of the work that was done by my team and I during each practical session.
-I hope that you find this content useful! If you have any question feel free to contanct me, my details are on my Github profile.
+Hello everyone! I am Marco Vavassori, I am a third-year student at Edinburgh Napier University.
+This GitHub repository contains 10 portfolio entries that I have written for my Software Engineering Coursework. Each one of them is a detailed and reflective description of the work that was done by my team and I during each practical session.<br>
+I hope that you find this content useful! If you have any questions feel free to contact me, my details are on my GitHub profile.
 
 ## Contents
 
