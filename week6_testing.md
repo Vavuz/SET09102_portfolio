@@ -128,4 +128,58 @@ It is possible to see that a method that updates the display and one that clears
 
 ## <span style="color:green">Final evaluation</span>
 
-Unfortunately, because of the circumstances, we were not able to effectuate the cross-team testing so I am not able to provide a final evaluation of the test results.
+After the test battle we got to be on the podium, at third place, but out of four teams, so not the best result we could get. Below we can see how our code performed on other team's tests and how our tests performed on other team's code.
+
+### <span style="color:orange">Our Code</span>
+
+Starting we have the tests of the Red team (figure 3), from a glance at it I can say that most of these tests failed because the implementation of the Red team was different from ours, for example the case insensitive test writes the word `Word` and tries to find the `W` but our code simply saves it all lowercase so there is no capital w to find. We can also see that they also managed empty answers and exceptions differently, but despite these differences I like the idea of a case sensitive test and we probably should have written one too.
+
+<figure>
+  <img src="images/week6/tests_red.jpg" style="width:100%;
+         display:block;
+         margin-left:auto;
+         margin-right:auto;">
+  <figcaption align="center" style="font-size:11px;"><b>Fig.3 - Red team tests</b></figcaption>
+</figure>
+
+A test which was really similar to the one mentioned above was written by the Orange team too and, consequently, it failed again. We can also see another test that checks whether the remaining attempts update correctly and it fails despite our code working perfectly, so it is again a case of different code implementation from the teams. You can see the tests below:
+
+<figure>
+  <img src="images/week6/tests_orange.jpg" style="width:100%;
+         display:block;
+         margin-left:auto;
+         margin-right:auto;">
+  <figcaption align="center" style="font-size:11px;"><b>Fig.4 - Orange team tests</b></figcaption>
+</figure>
+
+Finally the tests of the last team, Green team, were only two and really simple so we managed to pass both.
+
+<figure>
+  <img src="images/week6/tests_green.jpg" style="width:100%;
+         display:block;
+         margin-left:auto;
+         margin-right:auto;">
+  <figcaption align="center" style="font-size:11px;"><b>Fig.5 - Green team tests</b></figcaption>
+</figure>
+
+### <span style="color:orange">Our tests</span>
+
+As it is possible to see below, our tests were used on the code of Red and Orange team and the outcome was successful, not even one test failed, which means that both team worked on enough features for all our tests to pass:
+
+<figure>
+  <img src="images/week6/our_tests_orange_red.jpg" style="width:100%;
+         display:block;
+         margin-left:auto;
+         margin-right:auto;">
+  <figcaption align="center" style="font-size:11px;"><b>Fig.6 - Our test on Red and Orange team</b></figcaption>
+</figure>
+
+Not the same can be said about the Green team, which clearly had not implemented enough features to get our tests to run properly, therefore almost all of them failed except for the three that you can see in the image below
+
+<figure>
+  <img src="images/week6/our_tests_green.jpg" style="width:100%;
+         display:block;
+         margin-left:auto;
+         margin-right:auto;">
+  <figcaption align="center" style="font-size:11px;"><b>Fig.7 - Our tests on Green team</b></figcaption>
+</figure>
