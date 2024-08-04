@@ -1,5 +1,5 @@
 # Software Engineering Portfolio
-
+A collection of porfolios that cover the idealisation, construction and maintainance (engineering) of a software. The PDF versions are included too.
 ## Contents
 
 1. [Setup](week2_setup.md)
